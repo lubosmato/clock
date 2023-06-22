@@ -1,0 +1,9 @@
+{
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.indentSize": 4,
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+  }
+}
