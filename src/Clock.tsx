@@ -16,20 +16,20 @@ const Base = styled.div<{isAnimating: boolean}>`
   opacity: 0.2;
   color: white;
   font-family: "Inter";
-  text-shadow: none;
+  text-shadow: black 0 0 3px;
 
   pointer-events: none;
 
   @keyframes attention {
     0% {
-      text-shadow: none;
+      text-shadow: black 0 0 3px;
     }
     25% {
       opacity: 1;
-      text-shadow: rgb(255, 255, 255) 0px 0px 1rem;
+      text-shadow: black 0 0 3px, rgb(255, 255, 255) 0px 0px 1rem;
     }
     100% {
-      text-shadow: none;
+      text-shadow: black 0 0 3px;
     }
   }
 
